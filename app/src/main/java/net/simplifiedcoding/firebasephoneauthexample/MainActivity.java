@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity  {
 
 
         PhoneAuthProvider.getInstance().verifyPhoneNumber(
-                phone,        // Phone number to verify
+                "+91" + phone,        // Phone number to verify
                 60,                 // Timeout duration
                 TimeUnit.SECONDS,   // Unit of timeout
                 this,               // Activity (for callback binding)
